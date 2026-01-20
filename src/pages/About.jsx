@@ -3,21 +3,21 @@ import PageWrapper from "../components/PageWrapper";
 export default function About() {
   return (
     <PageWrapper>
-      <section className="min-h-screen px-24 py-20">
+      <section className="min-h-screen px-4 sm:px-8 md:px-24 py-12 md:py-20">
         {/* Heading */}
-        <h2 className="text-4xl font-bold mb-8">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
           About <span className="text-yellow-400">Me</span>
         </h2>
 
         {/* Intro */}
-        <p className="text-gray-300 max-w-4xl leading-relaxed mb-6">
+        <p className="text-gray-300 max-w-4xl leading-relaxed mb-6 text-sm sm:text-base">
           I am currently following a Bachelor of Information and Communication
           Technology (Honours) degree with a specialization in Business
           Intelligence at Uva Wellassa University of Sri Lanka, maintaining a
           GPA of <span className="text-yellow-400 font-semibold">3.32 / 4.00</span>.
         </p>
 
-        <p className="text-gray-300 max-w-4xl leading-relaxed mb-6">
+        <p className="text-gray-300 max-w-4xl leading-relaxed mb-6 text-sm sm:text-base">
           My academic journey and practical exposure have strengthened my skills
           in data analytics, dashboard development, and full-stack web
           development. I have worked extensively with Power BI, developing
@@ -26,7 +26,7 @@ export default function About() {
           authentication and real-time features.
         </p>
 
-        <p className="text-gray-300 max-w-4xl leading-relaxed mb-10">
+        <p className="text-gray-300 max-w-4xl leading-relaxed mb-10 text-sm sm:text-base">
           I enjoy transforming raw data into actionable insights and designing
           clean, user-friendly digital solutions. My interests lie in analytics,
           modern web technologies, and continuous learning through real-world
@@ -35,11 +35,11 @@ export default function About() {
 
         {/* Passion List */}
         <div className="mb-12">
-          <h3 className="text-2xl font-semibold mb-4 text-yellow-400">
+          <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-yellow-400">
             What I’m Passionate About
           </h3>
 
-          <ul className="list-disc list-inside text-gray-300 space-y-2">
+          <ul className="list-disc list-inside text-gray-300 space-y-2 text-sm sm:text-base">
             <li>Converting complex datasets into meaningful insights</li>
             <li>Designing clean, user-friendly interfaces</li>
             <li>Exploring modern web technologies</li>
@@ -49,11 +49,11 @@ export default function About() {
 
         {/* Education */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4 text-yellow-400">
+          <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-yellow-400">
             Education
           </h3>
 
-          <div className="space-y-6 text-gray-300">
+          <div className="space-y-6 text-gray-300 text-sm sm:text-base">
             <p>
               <strong>
                 Bachelor of Information and Communication Technology (Hons)

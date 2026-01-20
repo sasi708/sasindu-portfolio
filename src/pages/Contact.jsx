@@ -30,13 +30,13 @@ export default function Contact() {
 
   return (
     <PageWrapper>
-      <section className="min-h-screen px-24 py-20">
-        <h2 className="text-4xl font-bold mb-10">
+      <section className="min-h-screen px-4 sm:px-8 md:px-24 py-12 md:py-20">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-10">
           Contact <span className="text-yellow-400">Me</span>
         </h2>
 
         {/* TWO COLUMN LAYOUT */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-start">
 
           {/* LEFT – CONTACT FORM */}
           <form
@@ -77,12 +77,12 @@ export default function Contact() {
             </button>
           </form>
 
-          <div className="border border-yellow-400/30 rounded-xl p-8">
-  <h3 className="text-2xl font-semibold mb-6">
+          <div className="border border-yellow-400/30 rounded-xl p-6 sm:p-8">
+  <h3 className="text-xl sm:text-2xl font-semibold mb-6">
     Connect with <span className="text-yellow-400">Me</span>
   </h3>
 
-  <p className="text-gray-400 mb-6">
+  <p className="text-gray-400 mb-6 text-sm sm:text-base">
     You can also reach me through these platforms.
   </p>
 

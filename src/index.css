@@ -11,3 +11,27 @@ body {
   @apply w-full bg-black border border-gray-600 p-3 rounded-lg
          focus:border-yellow-400 outline-none transition;
 }
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Touch-friendly buttons */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
